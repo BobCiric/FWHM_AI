@@ -170,11 +170,5 @@ for i = 1:length(mri)
     activ_deactiv_radius(i,2) = str2num(cell2mat(out(1,10)));
 end
 fprintf('DONE!..............\n')
-%% AI calculation with FWHM 
-fprintf('Computing asymmetry index.........\n')
-AI_table(:,1:2) = activ_deactiv_radius(:,1:2);
-% AI_table(:,3) = AI(activ_deactiv_radius(:,3),activ_deactiv_radius(:,4));
-% AI_table(:,4) = AI(activ_deactiv_radius(:,5),activ_deactiv_radius(:,6));
-fprintf('DONE!.........\n')
 end
 %% Questions
