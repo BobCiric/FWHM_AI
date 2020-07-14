@@ -15,7 +15,7 @@
 % XX = '/step03_FaceNames/FirstLevel/con_0003.nii';
 % Xroi = dir('/Volumes/cerebro/Studies/KLU_APC2/Public/Analysis/misc/ROIs');
 % ROI = {'rHippocampus_L_37.nii','rHippocampus_R_38.nii','LeftBA46.img','RightBA46.img'};
-% subject = csvread('list.txt');
+% subject = importdata('your subject text file.txt',filesep);
 % [activ_deactiv_radius] = ImgAI3(X,XX,Xroi,ROI,subject,true);
 %
 % - Jinghang Li (jil202@pitt.edu) July 3rd, 2020
